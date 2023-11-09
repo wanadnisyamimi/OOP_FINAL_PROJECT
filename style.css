@@ -1,0 +1,92 @@
+.body {
+    background-color: #f5e1da; /* Pastel brown background color */
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .mainWrapper {
+    background-color: #f8d7c6; /* Lighter pastel brown container background */
+    padding: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 7%;
+  }
+  
+  h1 {
+    color: #6d4c41; /* Dark pastel brown heading color */
+  }
+  
+  .explain {
+    color: #6d4c41; /* Dark pastel brown text color */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #6d4c41; /* Dark pastel brown label color */
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6d4c41; /* Dark pastel brown border */
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .button {
+    background-color: #6d4c41; /* Dark pastel brown button background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #8b6d5e; /* Slightly darker pastel brown on hover */
+  }
+  
+  .btnhome {
+    margin-top: 10px;
+  }
+  
+  .buttonhome {
+    text-decoration: none;
+    color: #fff; /* White text color for home button */
+    padding: 10px 20px;
+    background-color: #6d4c41; /* Dark pastel brown button background color */
+    border-radius: 5px;
+  }
+  
+  .buttonhome:hover {
+    background-color: #8b6d5e; /* Slightly darker pastel brown on hover for home button */
+  }
+
+  .btnExit {
+    margin-top: 10px;
+  }
+  
+  .buttonexit {
+    text-decoration: none;
+    color: #fff; /* White text color for home button */
+    padding: 10px 20px;
+    background-color: #6d4c41; /* Dark pastel brown button background color */
+    border-radius: 5px;
+  }
+  
+  .buttonexit:hover {
+    background-color: #8b6d5e; /* Slightly darker pastel brown on hover for home button */
+  }
+  

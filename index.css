@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("background.png");
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  width: auto;
+  height: 70px;
+  background-color: #b78f62;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.assalamualaikum {
+  font-size: medium;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 5px;
+  float: left;
+  font-family: 'Pacifico', serif;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  color: #FBF3F2;
+}
+
+.nav-button {
+  margin-top: 15px;
+  margin-right: 50px;
+  float: right;
+  font-size: 20px;
+  font-family: 'Pacifico', serif;
+}
+
+.nav-button a {
+  font-size: 20px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  color: #FBF3F2;
+  padding: 10px;
+}
+
+#category {
+  color: #ffffff; /* White text */
+  background-color: #422504; /* Light blue pastel background color */
+  font-family: 'Comfortaa', cursive;
+  margin-top: 1%;
+}
+
+.hello {
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 1%;
+}
+
+.welcome {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 5px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.amazed {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 5px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.box {
+  background-color: #b78f62; /* Blue pastel background color */
+  width: 75%;
+  border-radius: 5%;
+  border: solid;
+  margin-left: 5%;
+  padding: 5%;
+  justify-content: center;
+}
+
+.output {
+  background-color: #b78f62; /* Blue pastel background color */
+  height: 30%;
+  width: 20%;
+  border-radius: 5%;
+  border: solid;
+  margin-left: 31%;
+  padding: 3%;
+  padding-right: 15%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.intro {
+  font-family: 'Baloo 2', cursive;
+}
+
+.search {
+  color: #ffffff !important; /* Blueish gray text color */
+  background-color: #422504; /* Light blue pastel background color */
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 5px;
+  margin-top: 5%;
+}
+
+.exit {
+  color: #ffffff !important; /* Blueish gray text color */
+  background-color: #81684d; /* Light blue pastel background color */
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 5px;
+  margin-top: 5%;
+
+}
+
+.food {
+  color: rgb(255, 255, 255); /* Blueish gray text color */
+  background-color: #422504; /* Light blue pastel background color */
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 5px;
+}
+
+.planner {
+  text-decoration: none;
+  color: #422504; /* Blueish gray link color */
+}
+
+h1, h2, h4 {
+  color: #000000;
+}
+
+select, button {
+  margin-top: 10px;
+}
+
+#meal-container {
+  margin-top: 20px;
+}
+
+
+.meal-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.meal-table, .meal-table th, .meal-table td {
+border: 2px solid #050505;
+}
+
+.meal-table th, .meal-table td {
+padding: 8px;
+text-align: left;
+}
+

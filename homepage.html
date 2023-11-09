@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="body">
+    <div class="mainWrapper">
+    
+      <h1>Create Your Own Meal Planner !</h1>
+      <p class="explain">Do you having problem decided what to eat for that day? Create your own planner !</p>
+
+      <form>
+        <div class="form-group">
+          <label>File name</label><!--USER ENTER THEIR FILE WITH .TXT-->
+          <input id="fileName" type="text" class="form-control" placeholder="monday.txt">
+        </div>
+
+        <div class="form-group">
+          <label>Content</label><!--USER ENTER THEIR MEAL PLANNER FOR THE DAY-->
+          <textarea id="fileContents" class="form-control" rows="5" placeholder="Breakfast: Pasta"></textarea>
+
+        </div>
+      </form>
+        <button id="btnCreate" class="button">Create</button>
+        <button id="btnRead" class="button">Read</button>
+        <button id="btnDelete" class="button">Delete</button>
+        <button id="btnUpdate" class="button">Update</button>
+        <button class="btnhome" ><a class="buttonhome" href="index.html">Home</a></button>
+        <button class="btnExit"><a class= "buttonexit" href="#" onclick="self.close();">Exit</a></button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
